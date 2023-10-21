@@ -1,3 +1,8 @@
+# https://rosalind.info/problems/prot/
+# Given: An RNA string s corresponding to a strand of mRNA (of length at most 10 kbp).
+# Return: The protein string encoded by s.
+
+
 # Creating the RNA codonn dictionary
 rna_codon_table = {
     'UUU': 'F', 'UUC': 'F', 'UUA': 'L', 'UUG': 'L',
