@@ -1,3 +1,8 @@
+# https://rosalind.info/problems/prtm/
+# Given: A protein string P of length at most 1000 aa.
+# Return: The total weight of P. Consult the monoisotopic mass table.
+
+
 # monoisotopic mass table
 # Creating a dictionary based on the provided data
 amino_acid_masses = {
@@ -28,6 +33,7 @@ with open("C:\\Users\\eblak\\Downloads\\rosalind_prtm.txt", "r") as  file:
  
 protein_mass = 0
 
+# Finding the mass of the given protein string using the monoisotopic mass table
 for amino_acid in protein_string:
     if amino_acid in amino_acid_masses:
         protein_mass += amino_acid_masses[amino_acid]
