@@ -1,3 +1,8 @@
+# https://rosalind.info/problems/subs/
+# Given: Two DNA strings s and t (each of length at most 1 kbp).
+# Return: All locations of t as a substring of s.
+
+
 # Given values
 k, m, n = 2, 2, 2
 total_population = k + m + n
